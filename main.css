@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    height: 500px;
+    background: url("hero-image.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Advertising banner styles */
+  #advertising {
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner {
+    margin-right: 20px;
+  }
+  
+  .banner h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .banner p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .banner form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .banner input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .banner button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    color: #000;
+    font-size: 24px;
+  }
+  
+  /* Font Awesome icons */
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+  
+  /* Slider styles */
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider-item {
+    max-width: 800px;
+    margin: 0 auto;
+  }
