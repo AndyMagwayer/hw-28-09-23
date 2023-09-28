@@ -108,9 +108,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden; /* Hide overflowing images */
   }
   
   .slider-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 800px;
     margin: 0 auto;
+    width: 500px;
   }
+  
+  .slider-item img {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+  }
+
+  /* .wrapper {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    align-items: center;
+  } */
